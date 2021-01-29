@@ -6,7 +6,8 @@ import three.collection.person.PersonDao;
 import java.util.List;
 
 /**
- *
+ * Ovo je komentar koji vi nemate.
+ * <p>Ne možete ni imati jer nisam ga ni commit & pushao</p>
  */
 public class Executor {
     public static void main(String[] args) {
