@@ -1,0 +1,7 @@
+
+   1. gitHub korisnički nalog: register
+   2. Kreirati udaljeni origin repository na Internetu
+   3. VCS -> Enable Version Control Integration
+   4. GIT -> commit -> lokalno skladište ćemo napuniti kodom našim
+   5. Lokalno skladište povezati sa Globalnim skladištem
+       -> PUSH
