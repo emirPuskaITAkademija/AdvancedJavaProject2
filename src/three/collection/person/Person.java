@@ -25,40 +25,45 @@ public class Person implements Comparable<Person> {
         return id;
     }
 
-    public void setId(int id) {
+    public Person setId(int id) {
         this.id = id;
+        return this;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Person setName(String name) {
         this.name = name;
+        return this;
     }
 
     public String getSurname() {
         return surname;
     }
 
-    public void setSurname(String surname) {
+    public Person setSurname(String surname) {
         this.surname = surname;
+        return this;
     }
 
     public LocalDate getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(LocalDate birthday) {
+    public Person setBirthday(LocalDate birthday) {
         this.birthday = birthday;
+        return this;
     }
 
     public Gender getGender() {
         return gender;
     }
 
-    public void setGender(Gender gender) {
+    public Person setGender(Gender gender) {
         this.gender = gender;
+        return this;
     }
 
     public int getAge() {

@@ -12,8 +12,8 @@ import java.util.List;
 public class Executor {
     public static void main(String[] args) {
         PersonDao personDao = new PersonDao();
-        List<Person> personList = personDao.retrieveAll();
-        printPersons(personList);
+        List<Person> listaOsoba = personDao.retrieveAll();
+        printPersons(listaOsoba);
     }
 
     static void printPersons(List<Person> personList){
