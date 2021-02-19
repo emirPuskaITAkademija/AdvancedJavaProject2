@@ -22,7 +22,7 @@ public class PersonDao implements Dao<Person> {
 
 
     @Override
-    public void create(Person record) {
+    public void insert(Person record) {
 
     }
 

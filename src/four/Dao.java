@@ -12,7 +12,7 @@ import java.util.List;
  */
 public interface Dao<T> {
 
-    public void create(T record);
+    public void insert(T record);
 
     public T update(T record);
 

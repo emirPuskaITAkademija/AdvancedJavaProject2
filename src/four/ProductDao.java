@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ProductDao implements Dao<Product>{
     @Override
-    public void create(Product record) {
+    public void insert(Product record) {
 
     }
 

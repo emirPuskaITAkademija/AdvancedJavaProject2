@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CarDao implements Dao<Car>{
     @Override
-    public void create(Car record) {
+    public void insert(Car record) {
 
     }
 
